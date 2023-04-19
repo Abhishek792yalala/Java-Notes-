@@ -369,3 +369,165 @@ abstract classes.
 - These classes are tend to override but the combination of static, final, and private is illegal.
 
  */
+ 
+ /*
+
+Exception handling and Errors:
+
+- There are 3 types of errors:  Syntax, logical and runtime errors.
+
+- syntax and logical errors are encountered by the programmer whereas runtime errors are encountered by the
+
+user.
+
+- Exception is an event that occurs when the program is executed disrupting the normal flow of instructions.
+
+They are mainly of 2 types:
+
+1. Checked exception: compile time exception.
+
+2. Unchecked exception: runtime exception.
+
+* The throws keyword:
+
+- It is used to declare an exception, gives information to the programmer that there might be an exception. It is better
+
+ to be prepared with try catch block.
+
+* Finally block:
+
+- Finally block contains the code which is always executed whether the exception is handled or not.
+
+- It is used to execute the code containing instructions to release the system resources, close a connection...
+
+ */
+ 
+  *//*
+
+Collections in java:
+
+- A collection represents a group of objects. Java collections provide classes and interfaces to be able to write code
+
+quickly and efficiently.
+
+- We need collections for efficient storage and better manipulation of the data.
+
+- Collections in java are available as classes and interfaces.
+
+- Collection class also provide static methods for sorting, searching...
+
+- Collection class is available in java.util package.
+
+ *//*
+
+/*
+
+                     Object Oriented Programming
+
+                     ===========================
+
+    - OOP tries to map code instructions with real world making the code short and easy to understand.
+
+    - Solving a problem by creating objects is one of the most popular approaches in programming and it is called the
+
+      object-oriented programming.
+
+    - Object: It is an instantiation of a class. When a class is defined, a template is defined. Memory is allocated only
+
+      after object instantiation.
+
+    - Class is a blueprint for creating objects.
+
+1. Abstraction: hiding internal details, showing only essential info.
+
+2. Encapsulation: the act of putting various components together(in a capsule). Sensitive data can be hidden from the users.
+
+3. Inheritance: the act of deriving new things from the existing things.
+
+4. Polymorphism: one entity in many forms.
+
+ */
+ 
+ ---- Constructor: Used to initialize the data during object creation.
+
+- Constructor is a special method to write the logics and they are executed when the object is created.
+
+- Constructor name and class name must be same.
+
+- It can take the arguments.
+
+- Constructor return type is not allowed even the void.
+
+- There are two types of constructors: default(0-argument constructor) and user-defined.
+
+- User-defined 0-argument constructor is not the default constructor, only compiler generated one is considered as the default one.
+
+- Default constructor is always generated inside the class if it not declared.
+
+- One constructor can call only one constructor whereas one method can call mutliple methods.
+
+* Class v/s Object:
+
+- class is a logical entity contains the logics of the application. object is physical entity represents memory.
+
+- class is a blue print that decides object's creation and without the class it is not possible to create the object.
+
+- it is possible to create multiple objects based on the single class. Every object needs memory space.
+
+- class is created by using Class keyword and object is created by using new keyword.
+
+- Constructor's name and class name must be same.
+
+- It can take arguments and return type is not allowed(even the void).
+
+- There are two types of constructor: default and user-defined.
+
+
+ Nested class:
+
+- having one outer class and multiple inner classes.
+
+- Static declarations are not allowed inside the inner class. Main method, static variables and static blocks are not allowed.
+
+- Declaration of the class inside the another class.
+
+- There are two types of nested classes. Static and non-static classes(normal inner, method local inner, anonymous inner).
+
+- Inside the inner class static declarations are not allowed. Main method, static variables, static blocks are not allowed.
+
+* Method Local Inner: Declaration of the class inside the method. The scope of MLI class is only within the method.
+
+- For top level classes the modifiers allowed are: public, default, final, abstract, strictfp.
+
+- For inner classes the modifiers allowed are: public, default, final, static, abstract, strictfp, private, protected,
+
+* Anonymous inner class: Reduces the length of the code but not the byte code. To reduce byte code length we use lambda expression.
+
+/*
+
+----- Interfaces:
+
+To give a common implementation to all the implementation classes, then declare the common implementations
+
+inside the interface using default and static methods.
+
+Default method implementations are possible to override whereas Static method implementations are not
+
+possible to override.
+
+Inside the interface it is possible to declare the main method from java8.
+
+----- Functional interfaces:
+
+The interface which contains only one abstract is called functional interface. Abstract class is an incomplete
+
+class and incomplete implementation occurs.
+
+The functional interface have multiple default and static methods.
+
+ */
+
+
+
+
+
